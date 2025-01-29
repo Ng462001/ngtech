@@ -1,0 +1,67 @@
+.admin1 {
+    margin-top: 50px;
+    margin-left: 250px;
+
+}
+
+.card1 {
+    max-width: 18rem;
+}
+
+.view {
+    margin-right: 10px;
+}
+
+.box {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    margin-bottom: 30px;
+}
+
+.img-thumbnail {
+    width: 250px;
+    height: 230px;
+    border: double;
+}
+
+.maincard {
+    display: flex;
+    gap: 200px;
+
+}
+
+.edit_mycourse {
+    position: relative;
+    border: 1px white solid;
+    padding: 15px 0px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 30px 0 rgba(0, 0, 0, 0.30);
+
+}
+
+.btn_watch {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media(max-width:991px) {
+    .admin1 {
+        margin: 0;
+    }
+
+    .allnav .img-thumbnail {
+        margin-top: 15px;
+        margin-left: 90px;
+        width: 150px;
+        height: 150px;
+        border: double;
+    }
+
+    .edit_mycourse {
+        padding: 15px;
+    }
+
+}

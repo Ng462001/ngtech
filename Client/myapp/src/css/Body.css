@@ -1,0 +1,117 @@
+.btn1 {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #2bc5b4;
+    border: #2bc5b4 solid 2px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.back img {
+    height: 330px;
+    width: 100%;
+}
+
+.header__left h1 {
+    color: #2bc5b4;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 90vh;
+    margin-bottom: 5rem;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header__left p {
+    margin: 1rem 0 2.4rem;
+}
+
+
+.header__right-image img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* styles.css */
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.payment-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.payment-form .form-group {
+    margin-bottom: 20px;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.payment-form .CardElement {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.payment-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+@media(max-width:991px) {
+    .header__right-image img {
+        display: none;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    .header__container {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        text-align: center;
+    }
+
+    .header__left p {
+        margin-bottom: 1rem;
+    }
+}

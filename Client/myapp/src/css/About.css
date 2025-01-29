@@ -1,0 +1,14 @@
+.aboutdiv{
+    background-color:#2bc5b4;
+}
+.social-hover{
+    text-decoration: none;
+    font-weight: 600;
+}
+.social-hover:hover{
+    background-color: #25a495;
+    padding: 5px 50px;
+}
+.col-sm>a{
+    text-decoration: none;
+}

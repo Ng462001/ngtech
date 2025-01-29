@@ -1,0 +1,21 @@
+.forget_paswword_div{
+    padding: 50px 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.send1{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #2bc5b4;
+    border: #2bc5b4 solid 2px;
+    padding: 6px 12px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+}
+.fontasm{
+    font-size: 150px;
+    text-align: center;
+}

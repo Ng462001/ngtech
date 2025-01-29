@@ -1,0 +1,40 @@
+
+.success-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.success-image {
+    width: 150px;
+}
+
+.success-heading {
+    font-size: 36px;
+    color: #333;
+}
+
+.success-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.success-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.success-button:hover {
+    background-color: #0056b3;
+}

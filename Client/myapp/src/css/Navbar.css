@@ -1,0 +1,55 @@
+.btn2 {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #2bc5b4;
+    border: #2bc5b4 solid 2px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.navlinkedit li a {
+    font-size: 18px;
+    color: black;
+    
+}
+
+.navlinkedit li a:hover {
+    color: #2bc5b4;
+    transition-duration: 500ms;
+    transition-delay: 75ms;
+}
+
+
+.mainbutton{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.window-scroll {
+    background: #f6f6f6;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transition-duration: 300ms;
+    transition-delay: 20ms;
+    
+}
+
+.btn2:hover {
+    background-color: #25a495;
+    transition-duration: 500ms;
+    transition-delay: 75ms;
+    cursor: pointer;
+}
+
+@media(max-width:991px) {
+    .img {
+        width: 180px;
+        height: auto;
+    }
+    .dropdown   {
+        margin-left: 110px;
+        margin-bottom: 80px;
+    }
+}
